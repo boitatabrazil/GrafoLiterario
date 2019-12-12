@@ -36,7 +36,7 @@ O csv (pode ser .txt, mas tem que está no padrão) é no seguinte formato:
 +	Nessa versão do cod só estamos suportando nomes com um token.**(Por Enquanto)**
 +	No campos dic os apelidos ou nomes alternativos devem ser separados por espaço
 +	O codigo é case sensitive
-+	Os nomes não pode se repetir 
++	Os nomes não podem se repetir 
 +	Ex de dicionario:
 
 		Name;Dic
