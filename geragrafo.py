@@ -1,5 +1,18 @@
+#    _ _ _      _____                 _     
+#   | (_) |    / ____|               | |    
+#   | |_| |_  | |  __ _ __ __ _ _ __ | |__  
+#   | | | __| | | |_ | '__/ _` | '_ \| '_ \ 
+#   | | | |_  | |__| | | | (_| | |_) | | | |
+#   |_|_|\__|  \_____|_|  \__,_| .__/|_| |_|
+#                              | |          
+#                              |_|          
+#############################################
+#                                           #
+#		Made by Boitata             #
+#	   github.com/boitatabrazil         #
+#                                           #
+#############################################
 import numpy as np
-from tqdm import tqdm
 import matplotlib.pyplot as plt
 import pandas as pd
 import networkx as nx
