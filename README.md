@@ -20,8 +20,7 @@
 	pip3 install matplotlib
 	pip3 install nltk
 	
-
-	**sudo apt install python-dev graphviz libgraphviz-dev pkg-config**\
+	sudo apt install python-dev graphviz libgraphviz-dev pkg-config
 	pip3 install pygraphviz
 
 ## Modo de usar
@@ -42,39 +41,38 @@ O csv (pode ser .txt, mas tem que está no padrão) é no seguinte formato:\
 
 
 
-Para rodar execute no terminal no diretorio onde o arquivo está\
+Para rodar execute no terminal no diretorio onde o arquivo está
 
 	python3 geragrafo.py
 
 É bom que os outros dois arquivos estejam no mesmo diretorio\
 O programa vai pedir algumas coisas:\
-	
 	nome do arquivo do livro (o txt com o livro)\
 	nome do arquico do dicionario (o csv com o dicionario)\
 	janela (o tamanho da janela (quantos tokens ele vai procurar os nomes))\
 	overlap (a interseção entre duas janelas)\
 	limiar (o valor da conexão alta (se dois nomes tem uma conexão maior ou igual a esse valor a conexão entre eles fica maior na imagem)\
-	arquivo de saida (o nome da imagem, ex: grafo.png O .png é bom botar)\
+	arquivo de saida (o nome da imagem, ex: grafo.png O .png é bom botar)
 
 
-##Trabalho futuro\
+## Trabalho futuro
 
 -Melhorar o menu (ter que digitar o nome do arquivo não é ideal)\
 -Suporte para nomes compostos\
--Melhorar a documentação do cod (lol)\
+-Melhorar a documentação do cod (lol)
 
 
-Valeu!\
+Valeu!
 
 
 Made by Vinicius Sampaio from Boitatá\
 vinicius.sampaio@aluno.uece.br 
 
 
-##Erros comuns
+## Erros comuns
 
-A instalção do graphviz/pygraphviz é um pouco problemática, mas o networkx usa ele para plotar o grafo de forma "legivel"\ então acaba sendo uma dor necessária\
+A instalção do graphviz/pygraphviz é um pouco problemática, mas o networkx usa ele para plotar o grafo de forma "legivel" então acaba sendo uma dor necessária
 
-Tem um erro, dependendo da versão do Networkx, em que **G.node()** não existe, a solução é substituir por **G.nodes()**\
+Tem um erro, dependendo da versão do Networkx, em que **G.node()** não existe, a solução é substituir por **G.nodes()**
 
 
