@@ -10,6 +10,7 @@
 	-Matplotlib
 	-Networkx
 	-graphviz
+	-EasyGUI
 
 ## Instalação
 
@@ -18,6 +19,7 @@
 	pip3 install networkx
 	pip3 install matplotlib
 	pip3 install nltk
+	pip3 install --upgrade easygui
 	
 	sudo apt install python-dev graphviz libgraphviz-dev pkg-config
 	pip3 install pygraphviz
@@ -49,6 +51,10 @@ Para rodar execute no terminal no diretorio onde o arquivo está
 
 	python3 geragrafo.py
 
+Ou a para a versão com interface grafica
+
+	python3 geragrafoGUI.py
+
 É bom que os outros dois arquivos estejam no mesmo diretorio\
 O programa vai pedir algumas coisas:
 +	nome do arquivo do livro (o txt com o livro)
@@ -61,7 +67,7 @@ O programa vai pedir algumas coisas:
 
 ## Trabalho futuro
 
-+	Melhorar o menu (ter que digitar o nome do arquivo não é ideal)
++	Melhorar o menu (Resolvido na versão com GUI)
 +	Suporte para nomes compostos
 +	Melhorar a documentação do cod (lol)
 
