@@ -1,0 +1,10 @@
+Name;Dic
+harry;Harry Arry Potter
+sirius;Sirius sirius dog
+herminone;Hermione Mione Amor
+rony;Ron
+frank;Frank
+nagini;Nagini
+wormtail;Wormtail
+bertha;Bertha
+Voldemort;Voldemort
