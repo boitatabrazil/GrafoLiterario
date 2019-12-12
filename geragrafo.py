@@ -76,7 +76,7 @@ while(i<len(tokens)):
         for l in conec:
             if k!=l:
                 matrix[k[1]][l[1]] = matrix[k[1]][l[1]] + 1
-    i = i + window - overlap
+    i = lim(i,window-overlap,len(tokens))
     print(conec)
 
 c = []
@@ -101,7 +101,7 @@ esmall = [(u, v) for (u, v, d) in G.edges(data=True) if d['weight'] <= limiar]
 groups = set(nx.get_node_attributes(G,'conec').values())
 mapping = dict(zip(sorted(groups),count()))
 nodes = G.nodes()
-colors = [mapping[G.node[n]['conec']] for n in nodes]
+colors = [mapping[G.nodes[n]['conec']] for n in nodes]
 
 from networkx.drawing.nx_agraph import graphviz_layout
 pos = graphviz_layout(G)
